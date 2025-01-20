@@ -3,6 +3,6 @@ This repository contains the twimba project form scrimba's "Front Developer Path
 
 
 # Stretch Goals
--Add the ability to reply a specific tweet.
--Save tweets, likes and retweets to locaStorage.
--Allow a user to delete a tweet.
+[x] Add the ability to reply a specific tweet.
+[x] Save tweets, likes and retweets to locaStorage.
+[x] Allow a user to delete a tweet.
