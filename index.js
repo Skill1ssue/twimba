@@ -104,7 +104,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         savedTweets.unshift({
             handle: `@Scrimba`,
-            profilePic: `/images/scrimbalogo.png`,
+            profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/scrimbalogo.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
@@ -131,7 +131,7 @@ function handleCommentBtnClick(tweetId) {
 
     const reply = {
         handle: `@Scrimba`,
-        profilePic: `images/scrimbalogo.png`,
+        profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/scrimbalogo.png`,
         tweetText: `${comment}`,
         uuid: uuidv4(),
   }

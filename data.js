@@ -1,7 +1,7 @@
 export const tweetsData = [   
     {
         handle: `@TrollBot66756542 💎`,
-        profilePic: `/images/troll.jpg`,
+        profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/troll.jpg`,
         likes: 27,
         retweets: 10,
         tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
@@ -13,19 +13,19 @@ export const tweetsData = [
     },    
     {
         handle: `@Elon ✅`,
-        profilePic: `/images/musk.png`,
+        profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/musk.png`,
         likes: 6500,
         retweets: 234,
         tweetText: `I need volunteers for a one-way mission to Mars 🪐. No experience necessary🚀`,
         replies: [
                   {
                 handle: `@TomCruise ✅`,
-                profilePic: `/images/tcruise.png`,
+                profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/tcruise.png`,
                 tweetText: `Yes! Sign me up! 😎🛩`,
             },
                   {
                 handle: `@ChuckNorris ✅`,
-                profilePic: `/images/chucknorris.jpeg`,
+                profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/chucknorris.jpeg`,
                 tweetText: `I went last year😴`,
             },
         ],
@@ -35,19 +35,19 @@ export const tweetsData = [
     },
         {
         handle: `@NoobCoder12`,
-        profilePic: `/images/flower.png`,
+        profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/flower.png`,
         likes: 10,
         retweets: 3,
         tweetText: `Are you a coder if you only know HTML?`,
         replies: [
             {
                 handle: `@StackOverflower ☣️`,
-                profilePic: `/images/overflow.png`,
+                profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/overflow.png`,
                 tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
             },
             {
                 handle: `@YummyCoder64`,
-                profilePic: `/images/love.png`,
+                profilePic: `https://raw.githubusercontent.com/Skill1ssue/twimba/refs/heads/main/images/love.png`,
                 tweetText: `You are wonderful just as you are! ❤️`,
             },
         ],
