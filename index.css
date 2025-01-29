@@ -39,6 +39,14 @@ body {
   min-height: 100vh;
 }
 
+.clear {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    width: fit-content;
+    font-size: 14px;
+}
+
 main, header{
     width: 290px;
 }

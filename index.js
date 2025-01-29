@@ -3,11 +3,6 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 // LOCALSTORAGE SETUP
 
-if (!localStorage.getItem('savedTweets')){
-    localStorage.setItem('savedTweets', JSON.stringify(tweetsData))
-    console.log(savedTweets)
-}
-
 const savedTweets = JSON.parse(localStorage.getItem('savedTweets'))
 
 // FUNCTION TO UPDATE LOCALSTORAGE
@@ -38,6 +33,10 @@ document.addEventListener('click', function(e){
     }
     else if (e.target.dataset.trash) {
       handleDeleteBtnClick(e.target.dataset.trash)
+    }
+    else if (e.target.id === 'clear') {
+        localStorage.clear()
+        localStorage.setItem('savedTweets', JSON.stringify(tweetsData))
     }
 })
 
