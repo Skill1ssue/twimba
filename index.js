@@ -2,8 +2,14 @@ import { tweetsData } from '/data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 // LOCALSTORAGE SETUP
+let savedTweets = JSON.parse(localStorage.getItem('savedTweets'))
 
-const savedTweets = JSON.parse(localStorage.getItem('savedTweets'))
+if (savedTweets === null) {
+    localStorage.setItem('savedTweets', JSON.stringify(tweetsData))
+    savedTweets = JSON.parse(localStorage.getItem('savedTweets'))
+}
+
+console.log(savedTweets)
 
 // FUNCTION TO UPDATE LOCALSTORAGE
 
